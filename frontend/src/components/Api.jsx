@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://h-services.onrender.com/api';
+const API_BASE_URL = 'https://nr-agences.onrender.com/api';
 
 export const signup = async (data) => {
     return await axios.post(`${API_BASE_URL}/signup`, data);
